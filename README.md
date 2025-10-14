@@ -36,7 +36,7 @@
  * @details 用户需要实现此函数来处理实际的显示输出
  * @note 此函数需要用户在外部实现
  */
-void menu_show_string(unsigned char line, char* str);
+void menu_show_string(unsigned char line, char* str)
 {
   OLED_ShowStr(0, line, str, 8);
 }
